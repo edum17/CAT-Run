@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_curses"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Curses" />
+        <item
+            android:id="@+id/nav_cercle_amics"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Cercle d'amics" />
+        <item
+            android:id="@+id/nav_clasificacions_faccions"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Clasificació faccions" />
+        <item
+            android:id="@+id/nav_qr"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Test_QR" />
+    </group>
+
+    <item android:title="@string/navigation_drawer_sub_menu">
+        <menu>
+            <item
+                android:id="@+id/nav_opcions"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/navigation_drawer_settings" />
+            <item
+                android:id="@+id/nav_perfil"
+                android:icon="@drawable/ic_social_person"
+                android:title="@string/navigation_drawer_profile" />
+        </menu>
+    </item>
+
+</menu>
