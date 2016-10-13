@@ -13,6 +13,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class MaterialUpConceptFakePage extends Fragment {
 	private RecyclerView mRootView;
 
@@ -30,7 +33,8 @@ public class MaterialUpConceptFakePage extends Fragment {
 	}
 
 	private void initRecyclerView() {
-		mRootView.setAdapter(new FakePageAdapter(20));
+		List<String> titles = Arrays.asList("Primer","Segon","Tercer","Quart","Cinquè");
+		mRootView.setAdapter(new ProfileActivityAdapter(titles));
 	}
 
 	public static Fragment newInstance() {

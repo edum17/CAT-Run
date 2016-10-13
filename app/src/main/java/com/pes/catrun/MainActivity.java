@@ -15,13 +15,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.pes.catrun.fragments.FragmentSettings;
-
 public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener, FragmentSettings.OnFragmentInteractionListener{
+        implements NavigationView.OnNavigationItemSelectedListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -87,8 +84,6 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        boolean FragmentTransaction = false;
-        Fragment fragment = null;
         Toast toast = Toast.makeText(this, "", Toast.LENGTH_SHORT);
 
         if (id == R.id.nav_curses){
@@ -101,8 +96,8 @@ public class MainActivity extends AppCompatActivity
             toast.setText("Not implemented :(");
             toast.show();
         } else if (id == R.id.nav_opcions) {
-            fragment = new FragmentSettings();
-            FragmentTransaction = true;
+            toast.setText("Not implemented :(");
+            toast.show();
         } else if (id == R.id.nav_qr) {
             Intent intent = new Intent(MainActivity.this, QrActivity.class);
             startActivity(intent);
@@ -111,21 +106,8 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
         }
 
-        if(FragmentTransaction){
-            getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.content_main,fragment)
-                    .commit();
-            item.setChecked(true);
-            getSupportActionBar().setTitle(item.getTitle());
-        }
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
-    }
-
-    @Override
-    public void onFragmentInteraction(Uri uri){
-
     }
 }

@@ -17,7 +17,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 public class ProfileActivity extends AppCompatActivity implements AppBarLayout.OnOffsetChangedListener{
-    private static final int PERCENTAGE_TO_ANIMATE_AVATAR = 20;
+    private static final int PERCENTAGE_TO_ANIMATE_AVATAR = 35;
     private boolean mIsAvatarShown = true;
 
     private ImageView mProfileImage;
@@ -94,8 +94,8 @@ public class ProfileActivity extends AppCompatActivity implements AppBarLayout.O
         @Override
         public CharSequence getPageTitle(int position) {
             switch(position) {
-                case 0: return "Tab 1";
-                case 1: return "Tab 2";
+                case 0: return "Curses pendents";
+                case 1: return "Curses realitzades";
             }
             return "";
         }

@@ -7,6 +7,8 @@
     <string name="navigation_drawer_sub_menu">Més opcions</string>
     <string name="navigation_drawer_profile">Perfil</string>
 
+    <string name="profile_activity_tab_1_title">Curses pendents</string>
+    <string name="profile_activity_tab_2_title">Curses realitzades</string>
 
     <string name="action_settings">Settings</string>
 

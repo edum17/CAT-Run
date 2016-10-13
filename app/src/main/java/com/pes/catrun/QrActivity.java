@@ -44,7 +44,6 @@ public class QrActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                //Toast.makeText(getContext(), "Not implemented", Toast.LENGTH_SHORT).show();
                 IntentIntegrator integrator = new IntentIntegrator(activity);
                 integrator.setDesiredBarcodeFormats(IntentIntegrator.ALL_CODE_TYPES);
                 integrator.setPrompt("Scan");
