@@ -4,19 +4,19 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_curses"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/man_sprinting"
             android:title="Curses" />
         <item
             android:id="@+id/nav_cercle_amics"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/group"
             android:title="Cercle d'amics" />
         <item
             android:id="@+id/nav_clasificacions_faccions"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/bar_chart"
             android:title="Clasificació faccions" />
         <item
             android:id="@+id/nav_qr"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/qr"
             android:title="Test_QR" />
     </group>
 

@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity
                         .setAction("Action", null).show();
             }
         });
-
+*/
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
     }
 
     @Override
@@ -87,8 +88,10 @@ public class MainActivity extends AppCompatActivity
         Toast toast = Toast.makeText(this, "", Toast.LENGTH_SHORT);
 
         if (id == R.id.nav_curses){
-            toast.setText("Not implemented :(");
-            toast.show();
+            Intent intent = new Intent(MainActivity.this, CursesActivity.class);
+            startActivity(intent);
+           // toast.setText("Not implemented :(");
+            //toast.show();
         } else if (id == R.id.nav_cercle_amics) {
             toast.setText("Not implemented :(");
             toast.show();

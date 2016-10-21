@@ -14,10 +14,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
-public class MaterialUpConceptFakePage extends Fragment {
+public class MaterialUpConceptFakePage2 extends Fragment {
 	private RecyclerView mRootView;
 
 	@Nullable
@@ -34,13 +32,12 @@ public class MaterialUpConceptFakePage extends Fragment {
 	}
 
 	private void initRecyclerView() {
-		OpenDataAPI odi = new OpenDataAPI();
-		ArrayList<OpenDataAPI.Cursa> cursas = odi.getListCurses();
-		mRootView.setAdapter(new ProfileActivityAdapter(cursas));
+		ArrayList<OpenDataAPI.Cursa> cursasCustom = new ArrayList<>();
+		mRootView.setAdapter(new ProfileActivityAdapter(cursasCustom));
 	}
 
 	public static Fragment newInstance() {
-		return new MaterialUpConceptFakePage();
+		return new MaterialUpConceptFakePage2();
 	}
 
 }

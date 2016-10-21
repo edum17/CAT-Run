@@ -8,10 +8,10 @@ import java.util.List;
 
 public class ProfileActivityAdapter extends RecyclerView.Adapter<ProfileActivityVH> {
 
-	private final List<String> titles;
+	private final List<OpenDataAPI.Cursa> cursas;
 
-	public ProfileActivityAdapter(List<String> titles) {
-		this.titles = titles;
+	public ProfileActivityAdapter(List<OpenDataAPI.Cursa> cursas) {
+		this.cursas = cursas;
 	}
 
 	@Override public ProfileActivityVH onCreateViewHolder(ViewGroup viewGroup, int i) {
@@ -25,11 +25,14 @@ public class ProfileActivityAdapter extends RecyclerView.Adapter<ProfileActivity
 	@Override
 	public void onBindViewHolder(ProfileActivityVH fakePageVH, int i) {
 		// do nothing
-		fakePageVH.textView.setText(titles.get(i).toString());
+		fakePageVH.textView1.setText(cursas.get(i).nom.toString());
+		fakePageVH.textView2.setText("A 10km de la teva posició.");
+		fakePageVH.textView3.setText(cursas.get(i).data.toString());
+		fakePageVH.textView4.setText("Hi participen 185 usuaris.");
 	}
 
 	@Override public int getItemCount() {
-		return titles.size();
+		return cursas.size();
 	}
 }
 

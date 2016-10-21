@@ -86,7 +86,7 @@ public class ProfileActivity extends AppCompatActivity implements AppBarLayout.O
         public Fragment getItem(int i) {
             switch(i) {
                 case 0: return MaterialUpConceptFakePage.newInstance();
-                case 1: return MaterialUpConceptFakePage.newInstance();
+                case 1: return MaterialUpConceptFakePage2.newInstance();
             }
             return null;
         }
