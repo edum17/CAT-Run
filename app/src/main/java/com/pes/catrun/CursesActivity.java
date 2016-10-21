@@ -22,7 +22,6 @@ public class CursesActivity extends AppCompatActivity{
         String nom;
         String distancia;
         String data;
-        String participants;
     }
 
 
@@ -30,8 +29,24 @@ public class CursesActivity extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_curses);
-        HttpClient httpClient = new HttpClient();
-        httpClient.init(this);
+        //HttpClient httpClient = new HttpClient();
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.materialup_tabs);
+        ViewPager viewPager = (ViewPager) findViewById(R.id.materialup_viewpager);
+        final FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        viewPager.setAdapter(new TabsAdapter(getSupportFragmentManager()));
+        tabLayout.setupWithViewPager(viewPager);
+
+        tabLayout.setOnTabSelectedListener(new TabLayout.ViewPagerOnTabSelectedListener(viewPager) {
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+                super.onTabSelected(tab);
+                if(tab.getPosition() == 0) fab.setImageResource(R.drawable.close_envelope);
+                if(tab.getPosition() == 1) fab.setImageResource(R.drawable.add);
+            }
+        });
+
+        //String result="";
+        //rellenaLista(result);
     }
 
     public void rellenaLista(String result)
@@ -89,14 +104,4 @@ public class CursesActivity extends AppCompatActivity{
         }
     }
 
-    public void printaCurses(ArrayList<OpenDataAPI.Cursa> cursas) {
-
-        for (int i = 0; i < cursas.size(); ++i) {
-            OpenDataAPI.Cursa curs = cursas.get(i);
-            System.out.println("Id : " + curs.nom);
-            System.out.println("Id : " + curs.distancia);
-            System.out.println("Id : " + curs.data);
-            System.out.println("Id : " + curs.participants);
-        }
-    }
 }
