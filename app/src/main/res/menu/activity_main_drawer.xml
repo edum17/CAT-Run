@@ -18,6 +18,10 @@
             android:id="@+id/nav_qr"
             android:icon="@drawable/ic_menu_manage"
             android:title="Test_QR" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="LOGIN" />
     </group>
 
     <item android:title="@string/navigation_drawer_sub_menu">
