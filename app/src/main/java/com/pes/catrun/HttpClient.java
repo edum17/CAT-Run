@@ -27,7 +27,7 @@ public class HttpClient {
     }
     CursesActivity cursesActivity;
     String dirURL = "http://10.4.41.158/OpenDataAPI.php";
-    
+
     public void init(Context context)
     {
         // Gets the URL from the UI's text field.
