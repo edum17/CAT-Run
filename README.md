@@ -2,7 +2,7 @@
 
 ### CATRUN Icon ####
 
-![icon](./documentation/Images/catrun-icon.png)
+![icon](https://bitbucket.org/rafescas/pes-catrun-repository/src/master/documentation/Images/catrun-icon.png)
 
 ### Equip ###
 
@@ -21,28 +21,28 @@
 - [ Project Record Track ](https://docs.google.com/spreadsheets/d/1GEikL9t-79Y3tkhd6CoQjhBESNEL-w3dqfzCU6kQ3Kk/edit?usp=sharing)
 - [ Taiga ](https://tree.taiga.io/project/edum17-pes/)
 - [ Bitbucket ](https://bitbucket.org/rafescas/pes-catrun-repository)
-- [ Metodologia de Treball ] (./documentation/metodologiaDeTreball.md)
-- [ Changelog ] (./documentation/Changelog.md)
+- [ Metodologia de Treball ] (https://bitbucket.org/rafescas/pes-catrun-repository/src/master/documentation/metodologiaDeTreball.md)
+- [ Changelog ] (https://bitbucket.org/rafescas/pes-catrun-repository/src/master/documentation/Changelog.md)
 
-### Index ###
+## Index ##
 
 ##### Entrega Fag-1 #####
 
-1. [ Visió del Projecte ] (./documentation/fag-1/visioDelProjecte.md)
-2. [ Característiques del Sistema ] (./documentation/fag-1/CaracteristiquesDelSistema.md)
-3. [ Not List ] (./documentation/fag-1/notList.md)
-4. [ Estudi de Mercat ] ([PES:CATRUN±: Repository/documentation/fag-1/estudiDeMercat.md)
-5. [ Elevator Pitch ] (./documentation/fag-1/elevatorPitch.md)
+1. [ Visió del Projecte ] (https://bitbucket.org/rafescas/pes-catrun-repository/src/master/documentation/fag-1/visioDelProjecte.md)
+2. [ Característiques del Sistema ] (https://bitbucket.org/rafescas/pes-catrun-repository/src/master/documentation/fag-1/CaracteristiquesDelSistema.md)
+3. [ Not List ] (https://bitbucket.org/rafescas/pes-catrun-repository/src/master/documentation/fag-1/notList.md)
+4. [ Estudi de Mercat ] (https://bitbucket.org/rafescas/pes-catrun-repository/src/master/documentation/fag-1/estudiDeMercat.md)
+5. [ Elevator Pitch ] (https://bitbucket.org/rafescas/pes-catrun-repository/src/master/documentation/fag-1/elevatorPitch.md)
 
 ##### Entrega Fag-2 #####
 
-1. [ Parts Interessades ] (partsInteressades.md)
-2. [ Llista de Temes ] (llistaDeTemes.md)
-3. [ Mock-ups ] (mockUps.md)
-4. [ Arquitectura Tècnica ] (arquitecturaTecnica.md)
-5. [ Estratègia d'Assaig i Control de Qualitat ] (estrategiadAssaigiControlDeQualitat.md)
-6. [ Descripció de la Metodología de Treball ] (./documentation/metodologiaDeTreball.md)
+1. [ Parts Interessades ] (https://bitbucket.org/rafescas/pes-catrun-repository/src/master/documentation/fag-2/partsInteressades.md)
+2. [ Llista de Temes ] (https://bitbucket.org/rafescas/pes-catrun-repository/src/master/documentation/fag-2/llistaDeTemes.md)
+3. [ Mock-ups ] (https://bitbucket.org/rafescas/pes-catrun-repository/src/master/documentation/fag-2/mockUps.md)
+4. [ Arquitectura Tècnica ] (https://bitbucket.org/rafescas/pes-catrun-repository/src/master/documentation/fag-2/arquitecturaTecnica.md)
+5. [ Estratègia d'Assaig i Control de Qualitat ] (https://bitbucket.org/rafescas/pes-catrun-repository/src/master/documentation/fag-2/estrategiadAssaigControlDeQualitat.md)
+6. [ Descripció de la Metodología de Treball ] (https://bitbucket.org/rafescas/pes-catrun-repository/src/master/documentation/metodologiaDeTreball.md)
 
 ##### Entrega Sprint 1 #####
 
-1. [ Informe de la Revisió del Sprint i Reunions Retrospectives] (resumSprint.md)
+1. [ Informe de la Revixió del Sprint i Reunions Retrospectives] (https://bitbucket.org/rafescas/pes-catrun-repository/src/master/documentation/fag-2/resumSprint.md)
