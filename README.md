@@ -2,7 +2,7 @@
 
 ### CATRUN Icon ####
 
-![icon](https://bitbucket.org/rafescas/pes-catrun-repository/src/master/documentation/Images/catrun-icon.png)
+![icon](./documentation/Images/catrun-icon.png)
 
 ### Equip ###
 
