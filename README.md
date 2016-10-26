@@ -6,15 +6,17 @@
 
 ### Equip ###
 
-| Nom | Rol | Email de contacte | Gdrive | Taiga | Bitbucket |
-| --- |:---:|:-----------------:|:------:|:-----:|:---------:|
-| Bejar, Romà | Developer team | roma.bejar@gmail.com | roma.bejar@gmail.com | roma.bejar@gmail.com | roma.bejar@gmail.com |
-| Costal, Jordi | Developer team | jordi.costal94@gmail.com | jordi.costal94@gmail.com | jordi.costal94@gmail.com | jordi.costal94@gmail.com |
-| Escoz, Rafa | Responsable Sprint 1 | rafescas94@gmail.com | rafescas94@gmail.com | rafescas94@gmail.com | rafescas94@gmail.com |
-| Fernández, Victor | Developer team | victorfernandezramajo@gmail.com | victorfernandezramajo@gmail.com | victorfernandezramajo@gmail.com | victorfernandezramajo@gmail.com |
-| Mora, Germán | Responsable (Fag-1) | german.mora1989@gmail.com | german.mora1989@gmail.com | edum_17@hotmail.com |  edum_17@hotmail.com |
-| Ortiz, Joshua | Responsable (Fag-2) | joshua.og@gmail.com | joshua.og@gmail.com | joshua.og@gmail.com | joshua.og@gmail.com |
-| Vives, Maria | Developer team | mariav355@gmail.com | mariav355@gmail.com | mariav355@gmail.com | mariav355@gmail.com |
+| Nom | Rol | Email de contacte |
+| :---: |:---:|:-----------------:|
+| Bejar, Romà | Developer team | roma.bejar@gmail.com |
+| Costal, Jordi | Developer team | jordi.costal94@gmail.com |
+| Escoz, Rafa | Responsable Sprint 1 | rafescas94@gmail.com |
+| Fernández, Victor | Developer team | victorfernandezramajo@gmail.com |
+| Mora, Germán | Responsable (Fag-1) | german.mora1989@gmail.com |
+| Ortiz, Joshua | Responsable (Fag-2) | joshua.og@gmail.com |
+| Vives, Maria | Developer team | mariav355@gmail.com | 
+
+[Versió extesa amb usuaris de Gdrive, Taiga i Bitbucket](https://bitbucket.org/rafescas/pes-catrun-repository/src/master/documentation/membresEquip.md)
 
 ### Enllaços importants ###
 
@@ -45,4 +47,4 @@
 
 ##### Entrega Sprint 1 #####
 
-1. [ Informe de la Revixió del Sprint i Reunions Retrospectives](https://bitbucket.org/rafescas/pes-catrun-repository/src/master/documentation/fag-2/resumSprint.md)
+1. [ Informe de la Revisió del Sprint i Reunions Retrospectives](https://bitbucket.org/rafescas/pes-catrun-repository/src/master/documentation/fag-2/resumSprint.md)
