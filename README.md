@@ -31,7 +31,7 @@
 1. [ Visió del Projecte ] (./documentation/fag-1/visioDelProjecte.md)
 2. [ Característiques del Sistema ] (./documentation/fag-1/CaracteristiquesDelSistema.md)
 3. [ Not List ] (./documentation/fag-1/notList.md)
-4. [ Estudi de Mercat ] (./documentation/fag-1/estudiDeMercat.md)
+4. [ Estudi de Mercat ] ([PES:CATRUN±: Repository/documentation/fag-1/estudiDeMercat.md)
 5. [ Elevator Pitch ] (./documentation/fag-1/elevatorPitch.md)
 
 ##### Entrega Fag-2 #####
@@ -45,4 +45,4 @@
 
 ##### Entrega Sprint 1 #####
 
-1. [ Informe de la Revixió del Sprint i Reunions Retrospectives] (resumSprint.md)
+1. [ Informe de la Revisió del Sprint i Reunions Retrospectives] (resumSprint.md)
