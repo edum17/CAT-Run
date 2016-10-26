@@ -21,29 +21,28 @@
 - [ Project Record Track ](https://docs.google.com/spreadsheets/d/1GEikL9t-79Y3tkhd6CoQjhBESNEL-w3dqfzCU6kQ3Kk/edit?usp=sharing)
 - [ Taiga ](https://tree.taiga.io/project/edum17-pes/)
 - [ Bitbucket ](https://bitbucket.org/rafescas/pes-catrun-repository)
-- [ Metodologia de Treball ] ()
-- [ Changelog ] ()
+- [ Metodologia de Treball ] (./documentation/metodologiaDeTreball.md)
+- [ Changelog ] (./documentation/Changelog.md)
 
 ### Index ###
 
 ##### Entrega Fag-1 #####
 
-1. [ Visió del Projecte ] ()
-2. [ Característiques del Sistema ] ()
-3. [ Not List ] ()
-4. [ Estudi de Mercat ] ()
-5. [ Elevator Pitch ] ()
+1. [ Visió del Projecte ] (./documentation/fag-1/visioDelProjecte.md)
+2. [ Característiques del Sistema ] (./documentation/fag-1/CaracteristiquesDelSistema.md)
+3. [ Not List ] (./documentation/fag-1/notList.md)
+4. [ Estudi de Mercat ] (./documentation/fag-1/estudiDeMercat.md)
+5. [ Elevator Pitch ] (./documentation/fag-1/elevatorPitch.md)
 
 ##### Entrega Fag-2 #####
 
-1. [ Parts Interessades ] ()
-2. [ Llista de Temes ] ()
-3. [ Mock-ups ] ()
-4. [ Arquitectura Tècnica ] ()
-5. [ Estratègia d'Assaig i Control de Qualitat ] ()
-6. [ Descripció de la Metodología de Treball ] ()
+1. [ Parts Interessades ] (partsInteressades.md)
+2. [ Llista de Temes ] (llistaDeTemes.md)
+3. [ Mock-ups ] (mockUps.md)
+4. [ Arquitectura Tècnica ] (arquitecturaTecnica.md)
+5. [ Estratègia d'Assaig i Control de Qualitat ] (estrategiadAssaigiControlDeQualitat.md)
+6. [ Descripció de la Metodología de Treball ] (./documentation/metodologiaDeTreball.md)
 
 ##### Entrega Sprint 1 #####
 
-1. [ Resum Executiu ] ()
-2. [ Informe de la Revixió del Sprint i Reunions Retrospectives] ()
+1. [ Informe de la Revixió del Sprint i Reunions Retrospectives] (resumSprint.md)
