@@ -2,7 +2,7 @@
 
 ### CATRUN Icon ####
 
-<img src="./Documentation/images/catrun-icon.png" style="width: 100px;"/>
+![icon](./documentation/Images/catrun-icon.png)
 
 ### Equip ###
 
