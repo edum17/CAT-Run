@@ -48,3 +48,21 @@
 ##### Entrega Sprint 1 #####
 
 1. [ Informe de la Revisió del Sprint i Reunions Retrospectives](https://bitbucket.org/rafescas/pes-catrun-repository/src/master/documentation/fag-2/resumSprint.md)
+
+
+### Branches ###
+
+Ara mateix tenim 4 branches:
+
+- [master](https://bitbucket.org/rafescas/pes-catrun-repository/src/master):
+
+        - Pujarem la documentació directament a la master.
+        - Els releases es faran a la master amb un tag.
+
+- [login](https://bitbucket.org/rafescas/pes-catrun-repository/src/login):
+
+        - Funcionabilitat del login
+
+- [curses](https://bitbucket.org/rafescas/pes-catrun-repository/src/login):
+
+        - Funcionabilitat de llistar curses optingudes del open data de barcelona
