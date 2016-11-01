@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 
 ### Added ###
 
-- HU0013 Consultar informació cursa
+- **Taiga**: HU0013 Consultar informació cursa (Substitueix HU més petites que eren massa petites. HU0054 i HU0055)
 
 ### Changed ###
 
@@ -16,8 +16,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 
 ### Removed ###
 
-- HU0055 Consultar data i hora cursa (Archived, queda englovada dins de HU0013)
-- HU0054 Consultar número participants (Archived, queda englovada dins de HU0013)
+- **Taiga**: HU0055 Consultar data i hora cursa (Archived, queda englovada dins de HU0013)
+
+- **Taiga**: HU0054 Consultar número participants (Archived, queda englovada dins de HU0013)
+
 
 ### Fixed ###
 
@@ -25,59 +27,58 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 
 ## Changes Sprint 1 - 28/10/2016 ##
 
-Títol de la portada
-Aquests canvis és trobaran al document [PES: CATRUN] Fag-2 dins de la carpeta 3ª Entrega, a la portada.
+### Added ###
+
+- **Stakeholders**: Afegit a Stakeholders de Tecnología: Proveidors de Open Data. (Ajuntament de Barcelona de moment)
+
+- **Not List**: Afegit al Sí:
+
+        - Escanejar codis QR de les curses.
+        - Creació de curses.
+        - Assoliments (Achievements).
+        - Multi-llenguatge.
+        - Faccions.
+        - Obtenir informació de les curses.
+
+- **Not List**: Afegit al No:
+
+        - Pagament.
+        - Inscripció a la cursa.
+        - Multiplataforma.
+
+- **Not List**: Afegit al Maybe:
+
+        - Detecció automàtica de curses creades
+
+- **Metodología de treball**: Descripció de com s'organitzen els requisits funcionals.
 
 
-Corregit:
-CATRUN
-Fag-2
-Projecte d’Enginyeria del Software (Curs 2016-2017 QT)
-Stakeholders
-Aquests canvis es trobaran al document [PES: CATRUN] Fag-2, pag. 4.
-Afegit:
-S’ha afegit els proveidors d’open data als Stakeholders de tipus “Tecnología”.
-Not List
-Aquests canvis és trobaran al document [PES: CATRUN] Fag-2, pag. 3
-Afegit al Sí:
-Escanejat codis QR de les curses.
-Creació de curses.
-Assoliments (achievements).
-Multi-llenguatge.
-Faccions.
-Obtenir informació de les curses.
-Eliminat al Sí:
-Inscripció a la cursa.
-Pagament.
-Informació meteorològica.
+### Changed ###
+
+- **Metodología de treball**:
+
+        - Bitbucket en comptes de Github per al Control de Versions.
+        - Taiga en comptes de Trello per al Taskboard.
+
+### Removed ###
+
+- **Not List**: Eliminat del Sí:
+
+        - Inscripció a la cursa.
+        - Pagament.
+        - Informació meteorològica.
+
+- **Not List**: Eliminat del No:
+
+        - Creació d'events propis.
+
+- **Not List**: Eliminat del Maybe:
+
+        - Assoliments (Achievements estil gamming).
+        - Multiplataforma.
+        - Multi-llenguatge.
 
 
-Afegit al No:
-Pagament.
-Inscripció a la cursa.
-Multiplataforma.
-Eliminat al No:
-Creació d’events propis.
+### Fixed ###
 
-
-Afegit al Maybe:
-Detecció automàtica de curses creades
-
-
-Eliminat al Maybe:
-Assoliments (Achievements estil gamming).
-Multiplataforma.
-Multi-llenguatge.
-Descripció de la metodologia de treball
-Aquests canvis és trobaran al document [PES: CATRUN] Fag-2, pag. 16.
-
-
-
-
-Modificat:
-Descripció de com s'organitzen els requisits funcionals.
-No utilitzem Github, utilitzem Bitbucket.
-Es farà el procés de tasques a Taiga
-Eliminat:
-Metodologia Github
-Com organitzar el procés de tasques en Trello
+- **[PES: CATRUN] Fag-2**: Títol de la portada
