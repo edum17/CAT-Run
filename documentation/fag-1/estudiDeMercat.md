@@ -2,6 +2,8 @@
 
 ## 1. Eventbrite (Web, Android, iOS) ##
 
+![](../Images/logo-eventbrite.png)
+
 Aplicació destinada a trobar esdeveniments, que ofereix la possibilitat de comprar les entrades obtenint un codi QR per a facilitar l’accés a l’esdeveniment sense necessitat de tenir-ho en paper.
 
 **Punts forts:**
@@ -21,6 +23,8 @@ Aplicació destinada a trobar esdeveniments, que ofereix la possibilitat de comp
 
 
 ## 2. All Events In City (Web, Android, iOS) ##
+
+![](../Images/logo-alleventsincity.png)
 
 Aplicació que permet la cerca d'esdeveniments propers ja sigui seleccionant una localització o utilitzant els geoposicionament. Permet la cerca tant d'esdeveniments globals com locals.
 
@@ -47,6 +51,8 @@ Aplicació que permet la cerca d'esdeveniments propers ja sigui seleccionant una
 
 ## 3. Foursquare (Web, Android, iOS, BlackBerry, Windows Phone) ##
 
+![](../Images/logo-forsquare.png)
+
 Aquesta aplicació adapta els interessos de l’usuari en funció de les seves cerques, mostrant-li llocs específics i els esdeveniments millor valorats d’aquella zona. A més, dóna l’opció a l’usuari de poder connectar l'aplicació amb diferents xarxes socials.
 
 **Punts forts:**
@@ -69,6 +75,8 @@ Aquesta aplicació adapta els interessos de l’usuari en funció de les seves c
 
 
 ## 4. EvenTwo (Android, iOS, Web) ##
+
+![](../Images/logo-eventwo.png)
 
 App per a conferències, esdeveniments i congressos, està relacionat amb el sector empresarial. Permet cercar o veure a través d'un llistat els esdeveniments i en quin estat estan (En curs, acabats o sense començar). Disponible per a Android, iOS i Web.
 
@@ -95,6 +103,8 @@ App per a conferències, esdeveniments i congressos, està relacionat amb el sec
 
 ## 5. Ttandem eventos (Web, iOS, Android) ##
 
+![](../Images/logo-ttandem.png)
+
 Aplicació mòbil per a esdeveniments, fires, congressos, exposicions i jornades. És una aplicació que crea esdeveniments a mida per als seus clients amb la finalitat de promocionar el seu esdeveniment.
 
 **Punts forts:**
@@ -115,6 +125,8 @@ Aplicació mòbil per a esdeveniments, fires, congressos, exposicions i jornades
 
 
 ## 6. Timpik (Web, iOS, Android) ##
+
+![](../Images/logo-timpik.png)
 
 Aplicació que et permet organitzar esdeveniments esportius o apuntar-te en qualsevol dels que hi ha organitzats.
 
@@ -139,6 +151,8 @@ Aplicació que et permet organitzar esdeveniments esportius o apuntar-te en qual
 
 
 ## 7. TodoCarreras (Web, Android) ##
+
+![](../Images/logo-todocarreras.png)
 
 Aplicació per assabentar-se de totes les curses d'Espanya. És només a nivell informatiu.
 
@@ -169,6 +183,8 @@ Aplicació per assabentar-se de totes les curses d'Espanya. És només a nivell 
 
 ## 8. Madrid Running(Android, iOS) ##
 
+![](../Images/logo-madridrunning.png)
+
 Aplicació per a conèixer totes les curses de la ciutat de Madrid. Permet afegir una cursa al calendari.
 
 **Punts forts:**
@@ -196,6 +212,8 @@ Aplicació per a conèixer totes les curses de la ciutat de Madrid. Permet afegi
 
 ## 9. WeGoOut (Web, Android, iOS) ##
 
+![](../Images/logo-wegoout.png)
+
 Aplicació per a festes, discoteques, ... Per a conèixer on es faran i quan.
 
 **Punts forts:**
@@ -214,6 +232,8 @@ Aplicació per a festes, discoteques, ... Per a conèixer on es faran i quan.
 
 
 ## 10. Runedia (Android, web, iOS) ##
+
+![](../Images/logo-runedia.png)
 
 App calendari de diverses curses populars d’Espanya.
 
@@ -234,6 +254,8 @@ App calendari de diverses curses populars d’Espanya.
 
 
 ## 11 VAMOS (iOS) ##
+
+![](../Images/logo-vamos.png)
 
 Aplicació d’abast mundial que dóna accés a events mitjançant llista de convidats, tickets i fotografies en només una aplicació amb fonts desde Facebook, Eventbrite, Stubhub, Eventim i Ticketmaster.
 
