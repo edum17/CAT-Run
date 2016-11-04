@@ -1,5 +1,7 @@
 package com.pes.catrun;
 
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Context;
@@ -15,6 +17,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class ProfileActivity extends AppCompatActivity implements AppBarLayout.OnOffsetChangedListener{
     private static final int PERCENTAGE_TO_ANIMATE_AVATAR = 35;
@@ -45,6 +48,18 @@ public class ProfileActivity extends AppCompatActivity implements AppBarLayout.O
 
         viewPager.setAdapter(new TabsAdapter(getSupportFragmentManager()));
         tabLayout.setupWithViewPager(viewPager);
+
+        TextView username  = (TextView) findViewById(R.id.username);
+        TextView descripcion = (TextView) findViewById(R.id.descripcion);
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
+        String alies = preferences.getString("alies", "");
+        String email = preferences.getString("email", "");
+
+        if(alies.length() > 0)
+        {
+            username.setText(alies);
+            descripcion.setText("Quiere' plomo?");
+        }
     }
 
     public static void start(Context c) {

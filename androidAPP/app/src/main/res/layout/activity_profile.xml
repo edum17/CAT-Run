@@ -72,7 +72,7 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
                 android:text="Catruner #001"
-                />
+                android:id="@+id/username" />
             ​
             <TextView
                 android:layout_width="wrap_content"
@@ -81,6 +81,7 @@
                 android:layout_marginBottom="4dp"
                 android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
                 android:text="Welcome to my profile"
+                android:id="@+id/descripcion"
                 android:textColor="@android:color/white"
                 />
             ​

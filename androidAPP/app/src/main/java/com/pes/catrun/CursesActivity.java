@@ -18,18 +18,11 @@ import java.util.ArrayList;
 
 public class CursesActivity extends AppCompatActivity{
 
-    class Cursa {
-        String nom;
-        String distancia;
-        String data;
-    }
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_curses);
-        //HttpClient httpClient = new HttpClient();
         TabLayout tabLayout = (TabLayout) findViewById(R.id.materialup_tabs);
         ViewPager viewPager = (ViewPager) findViewById(R.id.materialup_viewpager);
         final FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);

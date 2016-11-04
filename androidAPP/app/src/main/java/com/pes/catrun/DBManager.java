@@ -14,6 +14,7 @@ public class DBManager {
     public static final String CN_ID = "_id";
     public static final String CN_NAME = "nom";
     public static final String CN_USERNAME = "username";
+    public static final String CN_EMAIL = "email";
     public static final String CN_LOGIN = "login";
     public static final String CN_TOKEN = "token";
     public static final String CN_PASSWD = "contrasenya";
@@ -21,8 +22,9 @@ public class DBManager {
 
     public static final String CREATE_TABLE_USUARIOS = "create table " +TABLE_NAME+ " ("
             + CN_ID + " integer primary key autoincrement,"
-            + CN_NAME + " text not null,"
+            + CN_NAME + " text,"
             + CN_USERNAME + " text,"
+            + CN_EMAIL + " text,"
             + CN_LOGIN + " text,"
             + CN_TOKEN + " text,"
             + CN_PASSWD + " text,"
@@ -53,33 +55,31 @@ public class DBManager {
         return valores;
     }
 
-
-
-    public void insertarValoresRegistroUser (String nombre, String password, String username) {
-
-
-        //en el segundo parametro podemos definir que campos permiten valores null
-        db.insert(TABLE_NAME, null, generarContentValuesRegistreUsuari(nombre,password,username));
-
-
+    public ContentValues generarContentValuesCreateAccount(String username, String password, String email){
+        ContentValues valores = new ContentValues();
+        valores.put(CN_EMAIL, email);
+        valores.put(CN_PASSWD, password);
+        valores.put(CN_USERNAME, username);
+        return valores;
     }
 
+    public void insertarValoresRegistroUser (String nombre, String password, String username) {
+        //en el segundo parametro podemos definir que campos permiten valores null
+        db.insert(TABLE_NAME, null, generarContentValuesRegistreUsuari(nombre,password,username));
+    }
 
+    public void insertarValoresCreateAccount (String username, String password, String email) {
+        //en el segundo parametro podemos definir que campos permiten valores null
+        db.insert(TABLE_NAME, null, generarContentValuesCreateAccount(username,password,email));
+    }
 
     public void insertar (String nombre, String password) {
-
-
         //en el segundo parametro podemos definir que campos permiten valores null
         db.insert(TABLE_NAME, null, generarContentValues(nombre,password));
-
-
     }
 
     public void insertar2 (String nombre, String password) {
-
-
         db.execSQL("insert into "+TABLE_NAME+" values (null, '"+nombre+"' , "+password+")");
-
     }
 
     public Cursor cargarCursorUsuarios() {
@@ -88,13 +88,13 @@ public class DBManager {
 
     }
 
-
     public Cursor ComprobarUsuarioPassword(String nombre, String password) {
        return db.rawQuery("SELECT nom, contrasenya FROM "+TABLE_NAME+ " WHERE nom = ? AND contrasenya = ?", new String[] {nombre, password});
 
     }
 
+    public Cursor ComprobarUsernamePassword(String username, String password) {
+        return db.rawQuery("SELECT username, contrasenya FROM "+TABLE_NAME+ " WHERE username = ? AND contrasenya = ?", new String[] {username, password});
 
-
-
+    }
 }

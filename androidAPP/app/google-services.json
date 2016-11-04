@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1069869867441",
+    "project_id": "firebase-catrun"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069869867441:android:20bca1f72f734b49",
+        "android_client_info": {
+          "package_name": "com.pes.catrun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069869867441-qmrpk03mn4golretrmhen2jjk75j6l3j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pes.catrun",
+            "certificate_hash": "CF921A0A6D2EF6729A9860CB7837BFA442A91C21"
+          }
+        },
+        {
+          "client_id": "1069869867441-ato9pg636h7vsrhj5vh74ba549q4v9ql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANF0Hd6ipf6NsjlTpCj1lkjNvghd_Nb_c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

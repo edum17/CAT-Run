@@ -32,7 +32,7 @@ public class MaterialUpConceptFakePage2 extends Fragment {
 	}
 
 	private void initRecyclerView() {
-		ArrayList<OpenDataAPI.Cursa> cursasCustom = new ArrayList<>();
+		ArrayList<Cursa> cursasCustom = new ArrayList<>();
 		mRootView.setAdapter(new ProfileActivityAdapter(cursasCustom));
 	}
 

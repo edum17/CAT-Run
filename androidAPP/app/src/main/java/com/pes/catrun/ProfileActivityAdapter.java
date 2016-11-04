@@ -8,9 +8,9 @@ import java.util.List;
 
 public class ProfileActivityAdapter extends RecyclerView.Adapter<ProfileActivityVH> {
 
-	private final List<OpenDataAPI.Cursa> cursas;
+	private final List<Cursa> cursas;
 
-	public ProfileActivityAdapter(List<OpenDataAPI.Cursa> cursas) {
+	public ProfileActivityAdapter(List<Cursa> cursas) {
 		this.cursas = cursas;
 	}
 

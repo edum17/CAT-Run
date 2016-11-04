@@ -34,8 +34,9 @@ public class MaterialUpConceptFakePage extends Fragment {
 	}
 
 	private void initRecyclerView() {
-		OpenDataAPI odi = new OpenDataAPI();
-		ArrayList<OpenDataAPI.Cursa> cursas = odi.getListCurses();
+		CtlCursesOficials ctlCursesOficials  = new CtlCursesOficials();
+		CtlCursesOficials.init();
+		ArrayList<Cursa> cursas = CtlCursesOficials.getLlistaCurses( CtlCursesOficials.getJSONCurses());
 		mRootView.setAdapter(new ProfileActivityAdapter(cursas));
 	}
 
