@@ -11,7 +11,7 @@
 | Bejar, Romà | Developer team | roma.bejar@gmail.com |
 | Costal, Jordi | Developer team | jordi.costal94@gmail.com |
 | Escoz, Rafa | Responsable Sprint 1 | rafescas94@gmail.com |
-| Fernández, Victor | Developer team | victorfernandezramajo@gmail.com |
+| Fernández, Victor | Responsable Sprint 2 | victorfernandezramajo@gmail.com |
 | Mora, Germán | Responsable (Fag-1) | german.mora1989@gmail.com |
 | Ortiz, Joshua | Responsable (Fag-2) | joshua.og@gmail.com |
 | Vives, Maria | Developer team | mariav355@gmail.com | 
